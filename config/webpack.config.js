@@ -3,7 +3,7 @@ module.exports = {
 	entry: ['./js/utils.js','./js/app.js'],
 	//Output file
 	output: {
-		filename: 'bundle.js'
+  	filename: './bundle/bundle.js'
 	},
   //Keep and eye to my files for rebuild
   watch: true,

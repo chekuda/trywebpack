@@ -23,7 +23,7 @@ For build frontEnd Web Applications
     - Install server:
       npm i webpack-dev-server --save-dev
     - Run server
-      webpack-dev-server
+      webpack-dev-server bundle/bundle.js (serve the bundle file)
     Check the port in the console (by default take index.html)
 
 ### Building multiple Files

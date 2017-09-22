@@ -11,5 +11,7 @@ const stripLoader = {
 
 //Add the extra configuration to the dev config
 devConfig.module.loaders.push(stripLoader)
+//Stop watching changes in PRO
+devConfig.watch = false
 
 module.exports = devConfig

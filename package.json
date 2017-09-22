@@ -5,10 +5,10 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "build-pro": "webpack --config webpack-pro.config.js",
-    "build-pro-mini": "webpack --config webpack-pro.config.js -p",
-    "server": "webpack-dev-server"
+    "build": "webpack --config config/webpack.config.js",
+    "build-pro": "webpack --config config/webpack-pro.config.js",
+    "build-pro-mini": "webpack --config config/webpack-pro.config.js -p",
+    "server": "webpack-dev-server bundle/bundle.js"
   },
   "author": "Jose Luis Checa",
   "license": "ISC",

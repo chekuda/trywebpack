@@ -4,4 +4,4 @@ const login = (username, password ) => {
   }
 }
 
-login('jose', '111')
+login('jose', '1')

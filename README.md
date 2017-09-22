@@ -2,6 +2,11 @@
 
 For build frontEnd Web Applications
 
+### Runs
+    - For generate dev-build: npm run build
+    - For generate pro-build: npm run build-pro
+    - For run the server with virtual build: npm run server
+
 ### Why do we need a build step?
 
     - Reduce number of requests to the server
@@ -47,6 +52,15 @@ For build frontEnd Web Applications
     ie: minimize the code webpack -p
     - If I want to strip something from my code from my Pro built file `npm i strip-loader --save-dev` and create a new config file for pro (webpack-pro.config.js) in order to extend the webpack.config.js file
     - Run this pro config -> webpack --config webpack-pro.config.js
+
+### Organizing files and folders
+    - For entry files in `webpack.config.js` I can set up a relative root directory for the entry files using `context` key
+
+    - For output files I can set up a relative root directory for the entry files using `path` key
+
+    - Also I can serve a virtual bundle file adding `path` and `publicPath` to the output key in `webpack.config.js` (I wont see the file physicaly created)
+
+    - Also I can say where is my start poing (index.html) using `devServer`
 
 ### CSS and styles loaders
 

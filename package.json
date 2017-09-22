@@ -8,7 +8,7 @@
     "build": "webpack --config config/webpack.config.js",
     "build-pro": "webpack --config config/webpack-pro.config.js",
     "build-pro-mini": "webpack --config config/webpack-pro.config.js -p",
-    "server": "webpack-dev-server bundle/bundle.js"
+    "server": "webpack-dev-server --config config/webpack.config.js"
   },
   "author": "Jose Luis Checa",
   "license": "ISC",

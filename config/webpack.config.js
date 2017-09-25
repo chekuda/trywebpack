@@ -4,7 +4,7 @@ module.exports = {
   //set up a relative root directory for the entry files
   context: path.resolve('js'),
   //Set of files we want to include in our build
-  entry: ['./utils.js','./app.js'],
+  entry: ['./utils','./app'],
   //Output file
   output: {
     //put the bundle.js into this path
@@ -24,7 +24,7 @@ module.exports = {
     loaders: [{
       //configure suppor for babel to transpile to es6
       //test is a regex expresion to include all the files to transpile
-      test: /\.js/,
+      test: /\.js$/,
       //Exclude is a regex expresion to include all the files to transpile
       exclude: /node_modules/,
       //Loader

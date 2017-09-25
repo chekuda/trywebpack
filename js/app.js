@@ -1,5 +1,7 @@
-require('./login.js')
+import login from './login.js'
 
-document.write('Welcome Crack!!')
+login('jose','0000')
+
+document.write('Welcome Crack!!!')
 
 console.log('App Loader')

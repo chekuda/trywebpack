@@ -46,6 +46,7 @@ For build frontEnd Web Applications
     - esLint:
       1- Install packages
       2- Support for it as `preLoader`
+      3- Note: add configuration for es6 if want to use it
 
 ### Pro vs Dev
 

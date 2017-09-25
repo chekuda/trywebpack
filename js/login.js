@@ -4,4 +4,4 @@ const login = (username, password ) => {
   }
 }
 
-login('jose', '1')
+export default login

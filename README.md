@@ -5,7 +5,8 @@ For build frontEnd Web Applications
 ### Runs
     - For generate dev-build: npm run build
     - For generate pro-build: npm run build-pro
-    - For run the server with virtual build: npm run server
+    - For run the server with virtual build: npm run start
+    - For run the server with virtual build and sourcemap: npm run start-source-map
 
 ### Why do we need a build step?
 
@@ -30,6 +31,8 @@ For build frontEnd Web Applications
     - Run server
       webpack-dev-server bundle/bundle.js (serve the bundle file)
     Check the port in the console (by default take index.html)
+    - Run webpack server with source map
+      webpack-dev-server -d
 
 ### Building multiple Files
 
